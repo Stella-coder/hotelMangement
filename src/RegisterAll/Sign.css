@@ -1,0 +1,122 @@
+.SignUpMain {
+  width: 100%;
+  height: 100vh;
+  background-color: #4158d0;
+  /* background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  ); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignUpAndImageControl {
+  width: 610px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SubsignUp {
+  height: 450px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignUpImageDiv {
+  height: 450px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignImage {
+  height: 280px;
+  width: 280px;
+  object-fit: contain;
+}
+
+/* .SubsignUp::after {
+  content: "";
+  position: absolute;
+  top: 77px;
+  left: 380px;
+  right: 380px;
+  bottom: 77px;
+  border-radius: 8px;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.1) 15%,
+    transparent 50%,
+    transparent 85%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+} */
+
+.InputDivCtrl {
+  width: "300px";
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 5px;
+}
+.InputDiv1 {
+  display: none;
+}
+.InputDiv {
+  width: "300px";
+}
+
+.labInput {
+  color: white;
+  height: 30px;
+  width: 150px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media screen and (max-width: 650px) {
+  .SignUpMain {
+    height: 100%;
+  }
+
+  .SignUpAndImageControl {
+    justify-content: center;
+  }
+
+  .SubsignUp {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .SignUpImageDiv {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: none;
+  }
+}
